@@ -24,14 +24,14 @@ The project is structured into three phases
 
 Focus: Environment setup and non-destructive state retrieval.
 
-- [ ] Setup Environment
+- [x] Setup Environment
 - [ ] Agent Loop 
-- [ ] git config
-- [ ] git status
-- [ ] git diff
-- [ ] git stash
-- [ ] git add
-- [ ] git commit
+- [x] git config
+- [x] git status
+- [x] git diff
+- [x] git stash
+- [x] git add
+- [x] git commit
 
 ## Phase 2: Branching 
 
