@@ -20,12 +20,12 @@ The agent is designed to manage complex Git workflows, with a specific and advan
 
 The project is structured into three phases
 
-### Phase 1: Context and Saving Changes 
+### Phase 1: Context and Saving Changes **DONE**
 
 Focus: Environment setup and non-destructive state retrieval.
 
 - [x] Setup Environment
-- [ ] Agent Loop 
+- [x] Agent Loop 
 - [x] git config
 - [x] git status
 - [x] git diff
@@ -48,8 +48,8 @@ Phase 3: Conflict Resolution (The Core Goal)
 Focus: Reading, resolving, and confirming conflicts within the agent loop.
 
 - [ ] get conflicted files
-- [ ] read file content
-- [ ] write file content
+- [x] read file content
+- [x] write file content
 - [ ] add resolved
 - [ ] git revert
 - [ ] git reset
