@@ -11,7 +11,7 @@ class GitTools:
         if os.path.isdir(os.path.join(repo_path, ".git")):
             return f"repo exists at {os.path.abspath(repo_path)}"
 
-        output = subprocess.getoutput(f"git init", cwd=repo_path)
+        output = subprocess.getoutput("git init", cwd=repo_path)
 
         if "empty git" not in output.lower():
             return f"failed to init repo: {output}"
